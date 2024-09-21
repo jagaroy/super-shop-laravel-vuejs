@@ -1,0 +1,4 @@
+.btn-group .dropdown-toggle::after,
+.dropdown .dropdown-toggle::after {
+      content: "" !important;
+}
