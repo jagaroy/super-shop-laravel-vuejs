@@ -112,7 +112,6 @@ class ProductController extends Controller
             }
 
             $requests['authored_by'] = $auth_user->id;
-            $requests['sku'] = 999;
             unset($requests['id']);
             unset($requests['image']);
 
